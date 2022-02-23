@@ -1,0 +1,26 @@
+.guide {
+  margin-top: 75px;
+  &-title {
+    @include title();
+  }
+  &-desc {
+    margin-top: 11px;
+    font-size: 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  &-event {
+    margin-top: 18px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    &__item {
+      width: 247px;
+    }
+    &__image {
+      border-radius: 3px;
+      width: 246px;
+    }
+  }
+}

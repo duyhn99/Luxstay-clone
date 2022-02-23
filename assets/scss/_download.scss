@@ -1,0 +1,32 @@
+.download {
+  margin-top: 74px;
+  &-logo {
+    width: 343px;
+    height: 100%;
+    margin-bottom: 18px;
+  }
+  &-heading {
+    font-size: 30px;
+    font-weight: 900;
+  }
+  &-desc {
+    margin-top: 24px;
+    font-size: 16px;
+    line-height: 24px;
+  }
+  &-content {
+    margin-bottom: 74px;
+  }
+  &-qrcode {
+    width: 180px;
+    height: 100%;
+  }
+  &-link {
+    margin-bottom: 6px;
+    display: block;
+  }
+  &-picture {
+    width: 640px;
+    height: 100%;
+  }
+}

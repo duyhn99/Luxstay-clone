@@ -1,0 +1,43 @@
+.slider {
+  margin-top: calc($header-height + 44px);
+  &-dots {
+    justify-content: flex-end;
+    margin-right: 5%;
+    li {
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      background-color: rgba(0, 0, 0, 0.2);
+    }
+    .active {
+      background-color: rgba(0, 0, 0, 0.5);
+    }
+  }
+  &-image img {
+    border-radius: 20px;
+  }
+
+  .slick-dots {
+    position: absolute;
+    bottom: 5%;
+    right: 5%;
+    list-style: none;
+    display: flex !important;
+    gap: 0 10px;
+  }
+
+  .slick-dots button {
+    font-size: 0;
+    width: 5px;
+    height: 12px;
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 50%;
+    border: none;
+    outline: none;
+    transition: all 0.2s linear;
+  }
+
+  .slick-dots .slick-active button {
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+}

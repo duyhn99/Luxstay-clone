@@ -1,0 +1,16 @@
+.welcome {
+  margin-top: 54px;
+  &-title {
+    @include title();
+  }
+  p {
+    line-height: 16px;
+    margin: 12px 0;
+    font-size: 16px;
+    color: $text-color;
+  }
+  a {
+    color: $text-color;
+    text-decoration: underline;
+  }
+}

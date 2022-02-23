@@ -1,0 +1,118 @@
+.footer {
+  margin: 64px 0;
+  &-contact {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  &-content {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+  &-item {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+  }
+  &-icon {
+    font-size: 30px;
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(0 0 0 / 3%);
+    border-radius: 100%;
+  }
+  &-ct {
+    margin-bottom: 5px;
+    font-size: 14px;
+    font-weight: 700;
+  }
+  &-link {
+    display: block;
+    margin-bottom: 5px;
+    color: $text-color;
+    display: block;
+    font-size: 14px;
+    font-weight: 400;
+    &:hover {
+      color: $primary-color;
+      transition: 0.2s linear;
+      text-decoration: none;
+    }
+  }
+  &-heading {
+    font-size: 14px;
+    font-weight: bold;
+  }
+  &-list {
+    list-style: none;
+  }
+  &__-item {
+    padding: 5px 0;
+    font-weight: 400;
+  }
+  &-link {
+    color: $text-color;
+    font-size: 14px;
+    &:hover {
+      color: $primary-color;
+      transition: 0.2s linear;
+    }
+  }
+}
+
+.social {
+  padding: 45px 0;
+  border-bottom: 1px solid #c9c9c9;
+  &-item {
+    margin-top: 16px;
+  }
+  &-network {
+    display: flex;
+    align-items: center;
+  }
+  &-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    color: #fff;
+    background: rgb(0 0 0 / 70%);
+    margin: 0 5px;
+    border-radius: 100%;
+    &:hover {
+      background: rgb(0 0 0 / 80%);
+    }
+  }
+}
+
+.business-partner,
+.payment-methods {
+  display: flex;
+}
+
+.business {
+  &-item {
+    margin-top: 15px;
+  }
+  &-img {
+    width: 100px;
+  }
+}
+
+.business-item + .business-item {
+  padding-left: 16px;
+}
+
+.copyright-content {
+  margin: 10px 0;
+  font-size: 13px;
+  color: #716f81;
+  font-weight: 400;
+  text-align: center;
+  margin-bottom: 8px;
+  line-height: 18px;
+}
